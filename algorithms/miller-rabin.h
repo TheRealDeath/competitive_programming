@@ -12,10 +12,10 @@ bool millerTest(int n, int d)
   int x = std::pow(a, d) % n;
 
   // 2.3 x == 1 or x == n-1, return true.
-  if (x == 1 || x == n-1) return true;
+  if (x == 1 || x == n - 1) return true;
 
   // 2.4 While d does not become n-1:
-  while (d != n-1)
+  while (d != n - 1)
   {
     x = (x*x) % n;
     if (x == 1) return false;
@@ -23,7 +23,7 @@ bool millerTest(int n, int d)
   }
 }
 
-bool isPrime(int n, ink)
+bool isPrime(int n, int k)
 {
   // 1.1 Handle base cases for n < 3
   if (n <= 1 || n == 4) return false;
@@ -37,7 +37,7 @@ bool isPrime(int n, ink)
   Note that since n is odd, (n-1) must be even and r must be greater than 0.
   */
 
-  int d = n-1;
+  int d = n - 1;
   while (d % 2 == 0)
     d /= 2;
 
