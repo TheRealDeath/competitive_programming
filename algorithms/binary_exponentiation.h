@@ -24,3 +24,5 @@ long long modulo_binpow(long long a, long long b, long long m)
   }
   return res;
 }
+ 
+// owen was hr
