@@ -1,1 +1,1 @@
-C#Contains algorithms for competitive programming
+#Contains algorithms for competitive programming
