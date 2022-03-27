@@ -24,7 +24,7 @@ public class ParallelPrimeSieve
 					d1 += 16;
 					p1 += 2;
 					p2 += 2;
-					s2 += p2;
+					s2 = p2;
 				}
 				else
 				{
@@ -32,7 +32,7 @@ public class ParallelPrimeSieve
 					d2 += 8;
 					p1 += 2;
 					p2 += 6;
-					s2 += p1;
+					s2 = p1;
 				}
 			}
 		}
