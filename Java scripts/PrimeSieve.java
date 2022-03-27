@@ -15,7 +15,7 @@ public class PrimeSieve
 			p++;
 		}
 		ArrayList<Integer> myList = new ArrayList<>();
-		for(int i = 2;i<n)
+		for(int i = 2;i<n;i++)
 			if(primes[i]) myList.add(i);
 		return myList;
 	}
