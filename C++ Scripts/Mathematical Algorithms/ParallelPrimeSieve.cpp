@@ -10,8 +10,6 @@ vector<int> sieve(int n)
 	int lim = n/3;
 	bool tog = false;
 	bool composite[lim];
-	for(int i = 0;i<=lim;i++)
-		composite[i] = false;
 	int d1 = 8, d2 = 8, p1 = 3, p2 = 7, s = 7, s2 = 3, m = -1;
 	while(s < lim)
 	{
