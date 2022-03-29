@@ -1,11 +1,9 @@
-// Solovay-Strassen Primality Test
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <algorithm>
 #include "binary_exponentiation.cpp"
 
-// No comments for code. Do not use, unless you understand it.
 int calculateJacobian(long long a, long long n)
 {
   if (!a) return 0;
